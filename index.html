@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Age calculator app</title>
+</head>
+<body>
+  <main class="main">
+    <container class="container">
+      <section class="dates">
+        <section class="inputDiv">
+          <label for="date" id="dateLabel">DAY</label>
+          <input type="number" id="date" placeholder="DD">          
+          <small class="requireMessage" id="dateMessage"></small>
+        </section>
+        <section class="inputDiv">
+          <label for="month" id="monthLabel">MONTH</label>
+          <input type="number" id="month" placeholder="MM">
+          <small class="requireMessage" id="monthMessage"></small>
+        </section>
+        <section class="inputDiv">
+          <label for="year" id="yearLabel">YEAR</label>
+          <input type="number" id="year" placeholder="YYYY">
+          <small class="requireMessage" id="yearMessage"></small>
+        </section>
+      </section>
+      <section class="buttonDiv">
+        <button onclick="calculateAge()" class="calcAge"><img src="assets/images/icon-arrow.svg" alt=""></button>
+        <div class="line"></div>
+      </section>
+      <section class="ages">
+        <section class="ageSpan">
+          <span id="currentYears" class="calcAges">--</span>
+          <span id="currentYear">years</span>
+        </section>     
+        <section class="ageSpan">
+          <span id="currentMonths" class="calcAges">--</span>
+          <span id="currentMonth">months</span>
+        </section>
+        <section class="ageSpan">
+          <span id="currentDays" class="calcAges">--</span>
+          <span id="currentDay">days</span>
+        </section>
+      </section>
+    </container>
+    <section class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      <br/>
+      Coded by <a href="https://github.com/esteriella">Opeyemi Esther Agbaje</a>.
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
