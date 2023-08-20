@@ -31,7 +31,7 @@ function isValidDay() {
         monthLabel.style.color = "hsl(0, 100%, 67%)";
         yearInput.style.borderColor = "hsl(0, 100%, 67%)";
         yearLabel.style.color = "hsl(0, 100%, 67%)";
-        dateMessage.textContent = "Must be a valid date";
+        dateMessage.textContent = "Must be a valid day";
         return false;
     }
 
