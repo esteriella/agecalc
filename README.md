@@ -37,7 +37,6 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop View](./views/desktop.png)
 ![Desktop View](./views/desktopView.png)
 ![Local Storage View](./views/localStorage.png)
 ![Mobile View](./views/mobileView.png)
