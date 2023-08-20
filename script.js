@@ -155,13 +155,6 @@ function calculateAge() {
     let yearsDiff = ageDate.getUTCFullYear() - 1970;
     let monthsDiff = ageDate.getUTCMonth();
     let daysDiff = ageDate.getUTCDate();
-
-    // Adjust months and years if birthdate month is 
-    // later in the year or if days difference is negative
-    // if (monthsDiff < 0 || (monthsDiff === 0 && daysDiff < 0)) {
-    //     yearsDiff--;
-    //     monthsDiff += 12;
-    // }
     
     // Adjust for negative values for month and year
     if (monthsDiff < 0 || yearsDiff < 0) {
